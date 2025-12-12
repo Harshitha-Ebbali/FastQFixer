@@ -1,5 +1,5 @@
 # FastQFixer
-A simple Bash script to make FASTQ read names unique by appending an incrementing numeric suffix. This is useful when merging FASTQ data from multiple sequencing runs where read names may collide, causing problems for downstream tools such as GATK BaseRecalibrator, MarkDuplicates, or ApplyBQSR.
+A simple Bash script to make FASTQ read names unique by appending an incrementing numeric suffix. This is useful when merging FASTQ data from multiple sequencing runs or lanes where read names may collide, causing problems for downstream tools such as GATK BaseRecalibrator, MarkDuplicates, or ApplyBQSR.
 
 ## Features
 - Works on FASTQ files (`*.fastq.gz`)

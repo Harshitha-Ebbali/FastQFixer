@@ -9,7 +9,7 @@ A simple Bash script to make FASTQ read names unique by appending an incrementin
 
 ## Workflow
 
-When sequencing the same sample across multiple runs, read names can collide when files are merged. To avoid this, follow the BELOW workflow:
+When sequencing the same sample across multiple runs or lanes, read names can collide when files are merged. To avoid this, follow the BELOW workflow:
 
 1. Merge FASTQ files from multiple runs:
 
